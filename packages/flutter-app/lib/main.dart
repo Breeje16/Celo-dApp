@@ -20,7 +20,7 @@ void main() async {
         )
       ],
       child: EasyLocalization(
-        supportedLocales: const [Locale('en', 'US'), Locale('fr', 'FR')],
+        supportedLocales: const [Locale('en', 'US')],
         path: 'assets/lang', // <-- change the path of the translation files
         fallbackLocale: const Locale('en', 'US'),
         child: const App(),

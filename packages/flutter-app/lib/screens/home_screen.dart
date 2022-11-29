@@ -66,7 +66,7 @@ class _HomescreenState extends State<Homescreen> with WidgetsBindingObserver {
         currentIndex: walletController.bottomNavbarIndex,
         onTap: (int value) {
           if (value == 1 && walletController.publicWalletAddress == null) {
-            showToast('Connect wallet to continue', context);
+            showToast('Connect wallet to Continue', context);
             return;
           }
           walletController.updateBottomNavbarIndex(value);

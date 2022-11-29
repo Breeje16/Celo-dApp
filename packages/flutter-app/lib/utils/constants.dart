@@ -4,7 +4,6 @@ import 'package:logger/logger.dart';
 
 enum BlockchainFlavor {
   ropsten,
-  rinkeby,
   ethMainNet,
   polygonMainNet,
   mumbai,
